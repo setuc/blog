@@ -159,10 +159,10 @@ theme = "LoveIt"
 
    # Social config about the author
   [params.social]
-    GitHub = "https://github.com/setuc/"
-    Linkedin = "https://www.linkedin.com/in/setuchokshi/"
+    GitHub = "setuc"
+    Linkedin = "setuchokshi"
     Twitter = "@setuc"
-    Medium = "https://medium.com/@setu.chokshi"
+    Medium = "@setu.chokshi"
     #Youtubechannel = ""
 
   [params.page]
@@ -183,7 +183,7 @@ theme = "LoveIt"
     # whether to show link to Raw Markdown content of the content
     linkToMarkdown = true
     # LoveIt NEW | 0.2.4 whether to show the full text content in RSS
-    rssFullText = false
+    rssFullText = true
     # LoveIt NEW | 0.2.0 Table of the contents config
     [params.page.toc]
       # whether to enable the table of the contents
