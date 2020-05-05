@@ -272,8 +272,7 @@ theme = "LoveIt"
     # LoveIt NEW | 0.2.0 normalize.css@8.0.1
     normalizeCSS = "https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
     # fontawesome-free@5.13.0
-    #fontawesomeFreeCSS = "https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-    fontawesomeFreeCSS = "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+    fontawesomeFreeCSS = "https://use.fontawesome.com/releases/v5.13.0/css/all.css"
     # LoveIt NEW | 0.2.0 simple-icons@2.9.0
     # ("https://cdn.jsdelivr.net/npm/simple-icons@v2/icons/")
     simpleIconsPrefix = "https://cdnjs.cloudflare.com/ajax/libs/simple-icons/2.9.0/simpleicons.svg"
