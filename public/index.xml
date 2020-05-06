@@ -3,5 +3,13 @@
         <title>Pip Install Me: A Machine Learning Blog</title>
         <link>https://pipinstall.me/</link>
         <description>Pip Install Me: A Machine Learning Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><atom:link href="https://pipinstall.me/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 05 May 2020 20:29:18 &#43;0800</lastBuildDate><atom:link href="https://pipinstall.me/" rel="self" type="application/rss+xml" /><item>
+    <title>Sample Post to see how everything works out</title>
+    <link>https://pipinstall.me/first_post/</link>
+    <pubDate>Tue, 05 May 2020 20:29:18 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>https://pipinstall.me/first_post/</guid>
+    <description><![CDATA[<p>This is the initial setup to make sure everything is working fine and nothing is broken.</p>
+]]></description>
+</item></channel>
 </rss>
