@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Pip Install Me: A Machine Learning Blog</title>
-        <link>https://pipinstall.me/</link>
-        <description>Pip Install Me: A Machine Learning Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 06 May 2020 14:33:02 &#43;0800</lastBuildDate><atom:link href="https://pipinstall.me/" rel="self" type="application/rss+xml" /><item>
+        <title>Azure - Tag - Pip Install Me: A Machine Learning Blog</title>
+        <link>https://pipinstall.me/tags/azure/</link>
+        <description>Azure - Tag - Pip Install Me: A Machine Learning Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 06 May 2020 14:33:02 &#43;0800</lastBuildDate><atom:link href="https://pipinstall.me/tags/azure/" rel="self" type="application/rss+xml" /><item>
     <title>Getting started with Azure Machine Learning</title>
     <link>https://pipinstall.me/getting_started_with_aml/</link>
     <pubDate>Wed, 06 May 2020 14:33:02 &#43;0800</pubDate>
@@ -99,14 +99,6 @@ reinforcement learning algorithm that is available as a service called <a href="
 <p>One more thing, a sharp eyed reader would have noticed that some regression algorithms are used for classifications and
 some of them have been used in various other families. Don’t worry, we will cover them as we go along and will explain
 the how’s and the why’s as well.</p>
-]]></description>
-</item><item>
-    <title>Sample Post to see how everything works out</title>
-    <link>https://pipinstall.me/first_post/</link>
-    <pubDate>Tue, 05 May 2020 20:29:18 &#43;0800</pubDate>
-    <author>Author</author>
-    <guid>https://pipinstall.me/first_post/</guid>
-    <description><![CDATA[<p>This is the initial setup to make sure everything is working fine and nothing is broken.</p>
 ]]></description>
 </item></channel>
 </rss>

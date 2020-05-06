@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Pip Install Me: A Machine Learning Blog</title>
-        <link>https://pipinstall.me/</link>
-        <description>Pip Install Me: A Machine Learning Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 06 May 2020 14:33:02 &#43;0800</lastBuildDate><atom:link href="https://pipinstall.me/" rel="self" type="application/rss+xml" /><item>
+        <title>All Posts - Pip Install Me: A Machine Learning Blog</title>
+        <link>https://pipinstall.me/posts/</link>
+        <description>All Posts | Pip Install Me: A Machine Learning Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 06 May 2020 14:33:02 &#43;0800</lastBuildDate><atom:link href="https://pipinstall.me/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Getting started with Azure Machine Learning</title>
     <link>https://pipinstall.me/getting_started_with_aml/</link>
     <pubDate>Wed, 06 May 2020 14:33:02 &#43;0800</pubDate>
