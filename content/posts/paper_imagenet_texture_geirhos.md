@@ -1,14 +1,14 @@
 ---
-title: "[Paper]: ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness"
+title: "Inside a neural network: What is it thinking?"
 date: 2020-05-12T16:01:29+08:00
 draft: true
 author: "Setu Chokshi"
 authorLink: ""
-description: "ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness"
+description: "Inside a Neural Network"
 
 tags: ["Deep Learning", "Computer Vision", "Visualization"]
-categories: ["Visualization"
-featuredImage: "/images/posts/introduction_to_azure_personalizer/multi-arm-bandit.webp"
+categories: ["Visualization"]
+featuredImage: "/images/posts/inside_a_neural_network/building-dreams.webp"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -20,7 +20,6 @@ code:
   copy: true
 math:
   enable: true
---
+---
 
-## Introduction 
-
+## Introduction
