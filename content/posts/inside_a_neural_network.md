@@ -44,7 +44,8 @@ Though this makes sense after the fact, for example in the ICLR 2019 paper of Ge
 Imagenet trained networks like ResNet are prone to classify the images based on the local textures rather than shapes as 
 the earlier papers theorized. See the example of the paper. In the figure below, they took an example of a ring-tailed lemur 
 to which they transformed into various images using style transfer. With this, they maintained the global structure of 
-the image while removing its textures. None of the style transferred Lemur got classified back to its class. 
+the image while removing its textures. None of the style transferred Lemur got classified back to its class. I wrote about
+the paper in [this post](https://pipinstall.me/paper_imagenet_texture_geirhos)
  
 {{< figure src="/images/posts/inside_a_neural_network/style-transfer-lemur.webp" title="Stylized Lemur, no longer predictive of its class" >}}
 
@@ -89,6 +90,14 @@ to my mind as I went through the paper is now what I can do to address it? The b
 but what can we do to make the models robust. One thought that comes to mind is the use of adverserial networks. The other 
 is to use various augmentation techniques like Cut-Mix Augmentation[^6]. I haven't tried them yet, but will do so in the 
 coming weeks.  
+
+## Generating your activation atlas
+I was able to reproduce some code from the authors and played around with the layers and create activation atlas. The
+results are pretty interesting. As you as see that the top left is outline of the person while at the bottom left shows 
+the dogs face. Very interesting. Time to play with the models and various augmentation techniques to see how these structure
+changes.  
+
+{{< figure src="/images/posts/inside_a_neural_network/activation-atlas-inception.webp" title="Generated Activation Atlas for Inception v1" alt="activation atlas for Inception">}}
 
 [^1]:Zeiler, M. D., & Fergus, R. (2013). Visualizing and Understanding Convolutional Networks. Retrieved from https://arxiv.org/abs/1311.2901
 [^2]: Geirhos, R., Rubisch, P., Michaelis, C., Bethge, M., Wichmann, F. A., & Brendel, W. (2018). ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness. Retrieved from http://arxiv.org/abs/1811.12231
