@@ -62,6 +62,10 @@ from the AlexNet network[^3].
 I am sure there are other techniques as well, but once I start going through the papers, I will keep updating them here. 
 I will continue to write about these techniques in detail. 
 
+_Update_: There was a fascinating discussion by the authors[^7] discussed that the backpropagation based methods are not 
+doing the explanation. Instead, they are reconstructing the images, which is nothing to do with how the network arrived 
+at the classification decision. 
+
 ## Activation Atlas: A More Recent Work
 In all the methods until recent times, focus on a single input image, and there was no way to understand a global picture.
 The authors from Google and OpenAI recently published their work that can be found here [^4]. In this, they took one random
@@ -92,3 +96,4 @@ coming weeks.
 [^4]: Exploring Neural Networks with Activation Atlases, https://distill.pub/2019/activation-atlas/
 [^5]: Feature Visualization, https://doi.org/10.23915/distill.00007
 [^6]: Yun, S., Han, D., Oh, S. J., Chun, S., Choe, J., & Yoo, Y. (2019). CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features. Retrieved from http://arxiv.org/abs/1905.04899
+[^7]: Nie, W., Zhang, Y., & Patel, A. B. (2018). A theoretical explanation for perplexing behaviors of backpropagation-based visualizations. 35th International Conference on Machine Learning, ICML 2018, 9, 6105–6114. Retrieved from https://arxiv.org/abs/1805.07039
