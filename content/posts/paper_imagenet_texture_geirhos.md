@@ -1,7 +1,7 @@
 ---
 title: "[Paper] ImageNet-trained CNNs are biased towards texture"
 date: 2020-05-12T16:01:29+08:00
-draft: true
+draft: false
 author: "Setu Chokshi"
 authorLink: ""
 description: "Inside a Neural Network"
