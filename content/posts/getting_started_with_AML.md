@@ -8,7 +8,7 @@ description: ""
 
 tags: ["Starting up", "Machine Learning", "Azure"]
 categories: ["Azure Machine Learning"]
-featuredImage: "/images/posts/getting_started_with_AML/decisiontree.webp"
+featuredImage: "/images/posts/getting_started_with_AML/decisiontree.jpg"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
