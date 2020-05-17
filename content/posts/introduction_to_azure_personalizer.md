@@ -8,7 +8,7 @@ description: "Understanding Reinforcement Learning using Azure Personalizer"
 
 tags: ["Starting up", "Reinforcement Learning", "Azure", "Personalizer"]
 categories: ["Reinforcement Learning"]
-featuredImage: "/images/posts/introduction_to_azure_personalizer/multi-arm-bandit.webp"
+featuredImage: "/images/posts/introduction_to_azure_personalizer/multi-arm-bandit.jpg"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -197,6 +197,6 @@ Json File used in the demo code.
 
 As you run this code, you will notice that the intial predictions are very poor. Once the model is able to capture additional data, the predictions improve. What is also not shown here is the percentage of exploration that the model will do. This would mean that even though the model know what is the correct prediction, it will spend about 10 to 20 percent of its predictions to explore additional choices. This helps in exploring if the user choices have changed or there are better rewards available that the model could not get before. 
 
-{{< figure src="/images/posts/introduction_to_azure_personalizer/batch_recommendation_results.webp" title="Results of the Batch Recommendations" >}}
+{{< figure src="/images/posts/introduction_to_azure_personalizer/batch_recommendation_results.jpg" title="Results of the Batch Recommendations" >}}
 
 If you have other ideas or want to discuss futher, look me up on [LinkedIn :(fab fa-linkedin):](https://www.linkedin.com/in/setuchokshi/), would be happy to connect and learn more about your applications. 

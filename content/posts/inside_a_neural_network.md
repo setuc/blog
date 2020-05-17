@@ -8,7 +8,7 @@ description: "Inside a Neural Network"
 
 tags: ["Deep Learning", "Computer Vision", "Visualization"]
 categories: ["Visualization"]
-featuredImage: "/images/posts/inside_a_neural_network/building-dreams.webp"
+featuredImage: "/images/posts/inside_a_neural_network/building-dreams.jpg"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -38,7 +38,7 @@ can be improved by data augmentation, which they demonstrate in their paper. I g
 the neural network enabled us to understand what the network is learning and how we can use that to improve the final 
 accuracy of the model. 
 
-{{< figure src="/images/posts/inside_a_neural_network/visualization-of-neural-network.webp" title="Visualization of features in a fully trained model" >}}
+{{< figure src="/images/posts/inside_a_neural_network/visualization-of-neural-network.jpg" title="Visualization of features in a fully trained model" >}}
 
 Though this makes sense after the fact, for example in the ICLR 2019 paper of Geirhos et al. [^2], they mentioned that 
 Imagenet trained networks like ResNet are prone to classify the images based on the local textures rather than shapes as 
@@ -47,7 +47,7 @@ to which they transformed into various images using style transfer. With this, t
 the image while removing its textures. None of the style transferred Lemur got classified back to its class. I wrote about
 the paper in [this post](https://pipinstall.me/paper_imagenet_texture_geirhos)
  
-{{< figure src="/images/posts/inside_a_neural_network/style-transfer-lemur.webp" title="Stylized Lemur, no longer predictive of its class" >}}
+{{< figure src="/images/posts/inside_a_neural_network/style-transfer-lemur.jpg" title="Stylized Lemur, no longer predictive of its class" >}}
 
 They make a strong point, and we will explore the papers and their findings in the series of posts. 
 
@@ -73,7 +73,7 @@ The authors from Google and OpenAI recently published their work that can be fou
 activation from one million images. Each activation vector was 512 dimensions, to which they perform feature visualization, 
 a technique pioneered by Chris Olah [^5] to obtain the [Activation Atlas](https://distill.pub/2019/activation-atlas/app.html).
 
-{{< figure src="/images/posts/inside_a_neural_network/activation-atlas.webp" title="Activation atlas of the InceptionV1" >}}
+{{< figure src="/images/posts/inside_a_neural_network/activation-atlas.jpg" title="Activation atlas of the InceptionV1" >}}
 
 If you start to explore the Atlas, you will notice that there are individual activations that can be noticed from a given 
 class, which later on combine to form more complex activations. Similar to the 2013 paper of Zeiler and Fergus. 
@@ -83,7 +83,7 @@ to a specific class. They then try to compare two related classes and find that 
 one for identifying the baseball and one for the great white shark's teeth. Upon adding the image, in this case of a baseball, 
 the classification of the grey whale turns that to a great white shark. 
 
-{{< figure src="/images/posts/inside_a_neural_network/mixed5b-InceptionV1.webp" title="Baseball or great white shark's teeth" >}}
+{{< figure src="/images/posts/inside_a_neural_network/mixed5b-InceptionV1.jpg" title="Baseball or great white shark's teeth" >}}
 
 These are pretty exciting findings that enable you to peer into the workings of the neural network. One question that came 
 to my mind as I went through the paper is now what I can do to address it? The baseball and white shark is an extreme example, 
@@ -97,7 +97,7 @@ results are pretty interesting. As you as see that the top left is outline of th
 the dogs face. Very interesting. Time to play with the models and various augmentation techniques to see how these structure
 changes.  
 
-{{< figure src="/images/posts/inside_a_neural_network/activation-atlas-inception.webp" title="Generated Activation Atlas for Inception v1" alt="activation atlas for Inception">}}
+{{< figure src="/images/posts/inside_a_neural_network/activation-atlas-inception.jpg" title="Generated Activation Atlas for Inception v1" alt="activation atlas for Inception">}}
 
 [^1]:Zeiler, M. D., & Fergus, R. (2013). Visualizing and Understanding Convolutional Networks. Retrieved from https://arxiv.org/abs/1311.2901
 [^2]: Geirhos, R., Rubisch, P., Michaelis, C., Bethge, M., Wichmann, F. A., & Brendel, W. (2018). ImageNet-trained CNNs are biased towards texture; increasing shape bias improves accuracy and robustness. Retrieved from http://arxiv.org/abs/1811.12231

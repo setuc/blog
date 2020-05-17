@@ -8,7 +8,7 @@ description: "Inside a Neural Network"
 
 tags: ["Deep Learning", "Computer Vision", "Visualization", "Technical Paper", "Data Augmentation"]
 categories: ["Visualization"]
-featuredImage: "/images/posts/paper_imagenet_texture_geirhos/textured-images.webp"
+featuredImage: "/images/posts/paper_imagenet_texture_geirhos/textured-images.jpg"
 
 hiddenFromHomePage: false
 hiddenFromSearch: false

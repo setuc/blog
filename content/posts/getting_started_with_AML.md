@@ -44,7 +44,7 @@ Before we get going, lets spend sometime to understand what machine learning can
 ### 1. Is this A or B? or C or D…?
 You would have seen a lot of examples of these types of algorithms in daily life. For example, when you click a picture, how does the app know that you are a male or female? Have you see the results from [how-old.net](https://how-old.net/)? With a fairly decent accuracy its able to predict whether the person is male or female and their age as well.
 
-{{< figure src="/images/posts/getting_started_with_AML/howoldnet.webp" title="Output of How-Old.Net" >}}
+{{< figure src="/images/posts/getting_started_with_AML/howoldnet.jpg" title="Output of How-Old.Net" >}}
 
 But if the person, as you see in the image above, changes their expressions, suddenly the tool goes from identifying the same person as a young female to an aged man. There are limitations to what classifications can do and we will cover them as we get deeper into the classification models. When classification is done between two classes, Is this A or B, its called binary classification or two class classification. When you have more than two classes its called multi-class classification (Is this A or B or C or D or…).
 
@@ -62,7 +62,7 @@ Unlike classification algorithms, a metric of accuracy would not be a correct wa
 When you are looking to predict a number to answer the questions of how much or how many, you will refer to the regression algorithm family. If you have heard about Linear regression or Ordinary Least Square (OLS) regression, then you have already know quite a bit about them. These have often been used for example:
     * What effect of price and promotion on the sales of a product?
     * How many parts of an engine will fail in next two years?
-{{< figure src="/images/posts/getting_started_with_AML/weibull.webp" title="Weibull curve [Source](http://www.weibull.com/hotwire/issue14/relbasics14.htm)" >}}
+{{< figure src="/images/posts/getting_started_with_AML/weibull.jpg" title="Weibull curve [Source](http://www.weibull.com/hotwire/issue14/relbasics14.htm)" >}}
 
 
 
@@ -77,7 +77,7 @@ Clustering algorithms fall into a family of Unsupervised Learning. This means th
 ### 5. What should I do now?
 When you are trying to determine what should I do now, you will want to explore the family of algorithms called “Reinforcement Learning Algorithms”. You would have (un)knowingly used these algorithms while training a pets. When they do a good thing, you give them a small treat. Or in a your day to day life where good behaviors are encouraged either verbally or monetarily.
 
-{{< figure src="/images/posts/getting_started_with_AML/nutonomy.webp" title="nuTonomy self driving car" >}}
+{{< figure src="/images/posts/getting_started_with_AML/nutonomy.jpg" title="nuTonomy self driving car" >}}
 
 Reinforcement algorithms learn as they go. They often learn based on the examples and training that is provided. For example, the famous AlphaGo played a lot of games against itself to help it determine the best possible move(s). In case of self driving car, it needs to make decision whether to stop or continue when it sees an object on the road.
 
