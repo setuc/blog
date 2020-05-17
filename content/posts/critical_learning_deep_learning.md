@@ -1,7 +1,7 @@
 ---
-title: "Critical Learning for Deep Learning"
+title: "Critical Learning Periods for Deep Learning"
 date: 2020-05-17T21:03:14+08:00
-draft: true
+draft: false
 author: "Setu Chokshi"
 authorLink: ""
 description: ""
